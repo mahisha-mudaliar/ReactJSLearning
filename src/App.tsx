@@ -1,5 +1,6 @@
 import './App.css'
 import imageAddress from './assets/react.svg'
+import Counter from './components/Counter';
 import Practice from './components/Practice'
 function App(){
   let count = 18;
@@ -11,6 +12,7 @@ function App(){
     <img src={imageAddress} />
     <h1>Welcome {count}</h1>
     <Practice/>
+    <Counter/>
     </>
   )
 }
