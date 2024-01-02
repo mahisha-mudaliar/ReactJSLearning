@@ -20,4 +20,8 @@ function SimpleCounter(){
         </>
     )
 }
+<<<<<<< HEAD
 export default SimpleCounter;
+=======
+export default SimpleCounter;
+>>>>>>> 14a1936fb9092396351305e31833e64b2ed23036
