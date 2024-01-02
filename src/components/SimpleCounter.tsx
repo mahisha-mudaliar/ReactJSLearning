@@ -1,5 +1,5 @@
 import {useState} from 'react';
-function Anup(){
+function SimpleCounter(){
     let count = 0;
     const [counter, setCounter]=useState(0)
     function counterIncrement(){
@@ -20,4 +20,4 @@ function Anup(){
         </>
     )
 }
-export default Anup;
+export default SimpleCounter;
