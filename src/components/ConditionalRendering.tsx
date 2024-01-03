@@ -5,7 +5,8 @@ function ConditionalRendering(){
     return (
         <>
         <h1>Todo List</h1>
-        {todos.map((value)=> <li>{value}</li>)}
+        {todos.map((val)=> <li>{val}</li>)}
+        <button onClick={() => setTodos([...todos,'todo3'])}>Click</button>
         </>
     )
 }
