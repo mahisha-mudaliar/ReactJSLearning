@@ -1,6 +1,6 @@
 import {useState} from 'react';
 function SimpleCounter(){
-    let count = 0;
+    // let count = 0;
     const [counter, setCounter]=useState(0)
     function counterIncrement(){
         setCounter(counter+1);
